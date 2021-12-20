@@ -1,0 +1,12 @@
+<div class="field">
+  <div *ngFor="let row of (getField() | async)">
+    <mat-grid-list  cols="8">
+      <mat-grid-tile *ngFor="let tile of row">
+        <app-piece *ngIf="isOccupied(tile); else empty" [piece]=getTilePiece(tile)></app-piece>
+        <ng-template #empty>
+          <div class="tile" (click)="placePiece(tile)"></div>
+        </ng-template>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </div>
+</div>

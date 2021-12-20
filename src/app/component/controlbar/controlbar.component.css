@@ -1,0 +1,10 @@
+.controlbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+button {
+    font-size: large;
+}

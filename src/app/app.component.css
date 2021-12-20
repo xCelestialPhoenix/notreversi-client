@@ -1,0 +1,24 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 100%;
+}
+
+app-infoboard {
+    width: 100%;
+}
+
+app-field {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    width: 100%;
+}
+
+app-controlbar {
+    width: 100%;
+}

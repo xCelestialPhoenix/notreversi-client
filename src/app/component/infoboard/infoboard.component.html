@@ -1,0 +1,12 @@
+<div class="infoboard">
+    <div class="player black">
+        Player 1: {{ getPlayer1Score() | async }}
+    </div>
+    <div>
+        Player {{ getCurrentPlayer() | async }}'s Turn
+    </div>
+    <div class="player white">
+        Player 2: {{ getPlayer2Score() | async }}
+    </div>
+</div>
+

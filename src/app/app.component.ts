@@ -15,7 +15,7 @@ export class AppComponent implements OnDestroy {
   private timer: Subscription;
 
   constructor(private gameService: GameService, private store: Store<AppState>){
-    this.timer = interval(300).subscribe(async () => {
+    this.timer = interval(200).subscribe(async () => {
       const newState = await lastValueFrom(this.gameService.getGameState())
       this.store.dispatch(setGame({
         game: newState

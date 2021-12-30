@@ -1,6 +1,6 @@
 .piece {
-    width: calc(70vh / 8 * 0.8);
-    height: calc(70vh / 8 * 0.8);    
+    width: calc(80vmin / 8 * 0.8);
+    height: calc(80vmin / 8 * 0.8);    
     border-radius: 50%;
 }
 

@@ -1,0 +1,8 @@
+.Tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: green;
+  border: 1px solid black;
+}

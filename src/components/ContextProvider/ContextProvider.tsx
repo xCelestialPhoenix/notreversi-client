@@ -11,7 +11,7 @@ interface ContextProviderProps {}
 
 const ContextProvider: FC<ContextProviderProps> = function (props) {
   const [field, setField] = useState({ grid: [] as Tile[][] });
-  const [currPlayer, setCurrPlayer] = useState(0);
+  const [currPlayer, setCurrPlayer] = useState(-1);
   const [players, setPlayers] = useState([
     { number: 1, score: -1 },
     { number: 2, score: -1 },
